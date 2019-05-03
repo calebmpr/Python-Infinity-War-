@@ -1,0 +1,78 @@
+print("The Infinity War:")
+
+#Grabbing objects
+gauntlet = 0
+stone = 0
+
+#Character response
+answer_A = ("a")
+answer_B = ("b")
+answer_C = ("c")
+yes = ["Y", "y", "yes"]
+no = ["N", "n", "no"]
+
+#Story
+#def intro
+print("After the destruction of his home planet Titan, Thanos goes on a quest for the Infinity Stones, "
+      "to fulfill his destiny of bringing balance & peace to the Universe by "
+      "wiping out half of all life using the six stones. Thanos must travel in "
+      "different parts of the Galaxy to claim each stone. He will stop at nothing "
+      "to fulfill what he is destined to accomplish, even if it means to bring destruction "
+      "to other worlds.")
+print("You have arrived to Earth")
+print("Thanos has arrived to New York City to claim three Stones, reality, time, and space. "
+      "He is then confronted by the Avengers & has no choice but to do whatever it takes to "
+      "get past them and claim the stones. He will not go without a fight.")
+print("A. lift object B. throw object C. throw punch")
+
+choice = input("")
+if choice == answer_A:
+      print("You lifted Hulk & threw him")
+
+if choice == answer_B:
+      print("You threw a car at Hulk")
+
+if choice == answer_C:
+      print("You punched Hulk in the face")
+print("Hulk is left unconcious after being beat by Thanos")
+
+print("After going hand & hand with Hulk, Thanos manages to find his way up to Stark tower to claim the reality stone, "
+      "and the space stone. He places both gems onto the Infinity Gauntlet & heads 20 blocks to claim the time stone.")
+print("Thanos invades the house of Docter Stephan Strange, a Wizard who is in possession of the time Stone. "
+      "Strange is accompanied by Tony Stark also known as Iron Man, and both go hand to hand combat with Thanos.")
+print("At some point while fighting Stark, Thanos breaks his arm, stabs him with a nearby blade & goes for a kill. Strange stops Thanos "
+      "and willingly hands over the time Stone.")
+print("Thanos opens a portal to planet Morag")
+print("You are in front of the temple of the power stone")
+print("A. steal power stone")
+
+choice = input("")
+if choice == answer_A:
+      print("You have claimed power stone")
+
+print("Thanos then opens a portal to meet with Nebula to go claim the Soul Stone.")
+print("They both go to Vormir & are greeted by Red Skull. He tells them to claim the soul stone, you must lose what "
+      "you love most to claim the stone. A soul for a soul")
+print("For a moment Thanos is hesitant about what he must do. He grabs Nebula by the arm and decides to sacrafice her "
+      "life for the soul stone. Nebula resists but is thrown to her death.")
+print("You have claimed the Soul Stone")
+print("Thanos opens a portal to Los Angeles where Captain America, Black Widow, Thor, and Scrallet Witch are protecting "
+      "Vision who is in possession of the mind Stone")
+print("A. Fight the Avengers B. Use Gauntlet")
+choice = input("")
+if choice == answer_A:
+      print("Avengers are beaten unconcious")
+
+if choice == answer_B:
+      print("You've overpowered your enemies")
+print("All Avengers are beaten by Thanos who eventually used the Gauntlet against them to make his way to Vision.")
+print("Thanos makes his way to Vision, grabs him by the neck and rips the mind stone from his forehead")
+print("A. Place stone in Gauntlet & snap your fingers")
+choice = input("")
+if choice == answer_A:
+      print("You have just wiped out half of all life")
+print("After Thanos snaped his fingers half of all life in the Universe turned to ashes "
+      "including, Captain America, Black Widow, Iron Man, Docter Strange, etc. Hulk & Thor "
+      "are the only remaining Avengers.")
+print("Thanos then opens a portal to an uncharted Tropical island where he destroys the stones and "
+      "lives the rest of his life until Hulk, Thor, and Captain Marvel find him 10 years later & kill him.")
